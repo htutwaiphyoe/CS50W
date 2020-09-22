@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="search.css" />
+    </head>
+    <body>
+        <nav class="nav">
+            <ul class="nav__box">
+                <li class="nav__item active"><a href="index.html" class="nav__link">search</a></li>
+                <li class="nav__item">
+                    <a href="image.html" class="nav__link">image search</a>
+                </li>
+                <li class="nav__item">
+                    <a href="advanced.html" class="nav__link">advanced search</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container">
+            <form action="https://google.com/search" class="form">
+                <div class="form__input">
+                    <input type="text" name="q" class="input__text" placeholder="Search..." />
+                    <div class="form__icon">
+                        <ion-icon name="search" class="icon"></ion-icon>
+                    </div>
+                </div>
+                <div class="form__btn">
+                    <input
+                        class="btn__submit"
+                        value="Google Search"
+                        name="btnK"
+                        type="submit"
+                        data-ved="0ahUKEwi028aZ9ffrAhVA7HMBHSX6CmAQ4dUDCAs"
+                    />
+                    <input
+                        class="btn__submit"
+                        value="I'm Feeling Lucky"
+                        name="btnI"
+                        type="submit"
+                        jsaction="sf.lck"
+                        data-ved="0ahUKEwi028aZ9ffrAhVA7HMBHSX6CmAQ19QECAw"
+                    />
+                </div>
+            </form>
+        </div>
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    </body>
+</html>

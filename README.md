@@ -8,8 +8,8 @@ You can reference my answers for your assignments but don't copy the code litera
 
 ### Week 0 - HTML & CSS
 
--   [Project0](https://github.com/htutwaiphyoe/CS50W/tree/master/Week%200%20-%20HTML%20%26%20CSS/search,"Search")
+-   [Project0](https://github.com/htutwaiphyoe/CS50W/tree/master/Project0%20-%20Search,"Search")
 
 ### Week 1 - Git
 
--   [Project0](https://github.com/htutwaiphyoe/CS50W/tree/master/Week%200%20-%20HTML%20%26%20CSS/search,"Search")
+-   [Project0](https://github.com/htutwaiphyoe/CS50W/tree/master/Project0%20-%20Search,"Search")

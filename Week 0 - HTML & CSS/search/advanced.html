@@ -3,18 +3,27 @@
     <head>
         <title>Search</title>
         <link rel="stylesheet" href="advanced.css" />
+        <link rel="shortcut icon" href="assets/google_logo_icon512.png" />
     </head>
     <body>
         <nav class="nav">
-            <ul class="nav__box">
-                <li class="nav__item"><a href="index.html" class="nav__link">search</a></li>
-                <li class="nav__item">
-                    <a href="image.html" class="nav__link">image search</a>
-                </li>
-                <li class="nav__item active">
-                    <a href="advanced.html" class="nav__link">advanced search</a>
-                </li>
-            </ul>
+            <div class="nav__icon">
+                <img src="assets/google_logo_icon512.png" />
+            </div>
+
+            <div class="nav__container">
+                <ul class="nav__box">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">search</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="image.html" class="nav__link">image</a>
+                    </li>
+                    <li class="nav__item active">
+                        <a href="advanced.html" class="nav__link">advanced</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <div class="container">
             <form action="https://google.com/search" class="form">

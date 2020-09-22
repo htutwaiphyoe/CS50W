@@ -3,43 +3,75 @@
     <head>
         <title>Search</title>
         <link rel="stylesheet" href="search.css" />
+        <link rel="shortcut icon" href="assets/google_logo_icon512.png" />
     </head>
     <body>
         <nav class="nav">
-            <ul class="nav__box">
-                <li class="nav__item active"><a href="index.html" class="nav__link">search</a></li>
-                <li class="nav__item">
-                    <a href="image.html" class="nav__link">image search</a>
-                </li>
-                <li class="nav__item">
-                    <a href="advanced.html" class="nav__link">advanced search</a>
-                </li>
-            </ul>
+            <div class="nav__icon">
+                <img src="assets/google_logo_icon512.png" />
+            </div>
+
+            <div class="nav__container">
+                <ul class="nav__box">
+                    <li class="nav__item active">
+                        <a href="index.html" class="nav__link">search</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="image.html" class="nav__link">image</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="advanced.html" class="nav__link">advanced</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
+
         <div class="container">
             <form action="https://google.com/search" class="form">
-                <div class="form__input">
-                    <input type="text" name="q" class="input__text" placeholder="Search..." />
-                    <div class="form__icon">
-                        <ion-icon name="search" class="icon"></ion-icon>
-                    </div>
+                <div class="form__image">
+                    <img src="assets/googlelogo_color_272x92dp.png" />
                 </div>
-                <div class="form__btn">
-                    <input
-                        class="btn__submit"
-                        value="Google Search"
-                        name="btnK"
-                        type="submit"
-                        data-ved="0ahUKEwi028aZ9ffrAhVA7HMBHSX6CmAQ4dUDCAs"
-                    />
-                    <input
-                        class="btn__submit"
-                        value="I'm Feeling Lucky"
-                        name="btnI"
-                        type="submit"
-                        jsaction="sf.lck"
-                        data-ved="0ahUKEwi028aZ9ffrAhVA7HMBHSX6CmAQ19QECAw"
-                    />
+                <div class="form__box">
+                    <div class="form__input">
+                        <!-- <input type="text" name="q" class="input__text" placeholder="Search..." /> -->
+                        <input
+                            class="input__text"
+                            maxlength="2048"
+                            name="q"
+                            type="text"
+                            jsaction="paste:puy29d"
+                            aria-autocomplete="both"
+                            aria-haspopup="false"
+                            autocapitalize="off"
+                            autocomplete="off"
+                            autocorrect="off"
+                            autofocus=""
+                            role="combobox"
+                            spellcheck="false"
+                            title="Search"
+                            placeholder="Search..."
+                            value=""
+                            aria-label="Search"
+                            data-ved="0ahUKEwiQg9XasPzrAhVkIbcAHfqrCkQQ39UDCAQ"
+                        />
+                        <div class="form__icon">
+                            <ion-icon name="search" class="icon"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="form__btn">
+                        <input
+                            class="btn__submit"
+                            value="Google Search"
+                            name="btnK"
+                            type="submit"
+                        />
+                        <input
+                            class="btn__submit"
+                            value="I'm Feeling Lucky"
+                            name="btnI"
+                            type="submit"
+                        />
+                    </div>
                 </div>
             </form>
         </div>
